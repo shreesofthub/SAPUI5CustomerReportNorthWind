@@ -1,0 +1,13 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="yard.sapyard10.controller.inputView">
+<Page title="{i18n>inputTitle}">        
+    <content>        
+        <VBox width="100%" direction="Column" id="vbox0">        
+            <items>        
+                <Label text="{i18n>inputLabelText}" width="30%" id="label0"/>                       
+                <Input id="idInput" fieldWidth="30%" width="40%"/>                       
+                <Button text="Get Lsit of Orders" id="button0" press="onGetList"/>
+            </items>        
+        </VBox>        
+    </content>        
+    </Page>
+</mvc:View>

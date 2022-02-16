@@ -1,0 +1,15 @@
+<mvc:View
+    controllerName="yard.sapyard10.controller.rootView"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="idApp">
+			<pages>
+				<Page id="page" title="Hello World">
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

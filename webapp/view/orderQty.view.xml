@@ -1,0 +1,12 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="yard.sapyard10.controller.orderQty">
+<Page id="orderQtyPage" showNavButton="true" navButtonPress="onBack">        
+    <content>        
+        <VBox width="100%" direction="Column" id="vbox1">        
+            <items>        
+                <Text id="idText"/>
+                <Button id="idButton" press="getListofOrders"/>
+            </items>        
+        </VBox>        
+    </content>        
+    </Page>
+</mvc:View>

@@ -1,0 +1,12 @@
+<mvc:View controllerName="yard.sapyard10.controller.listOrder" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+    <Page title="{i18n>listOrderTitle}" showNavButton="true" navButtonPress="onBack">
+        <List backgroundDesign="Solid" items="{odataModel>/}" >
+            <items>
+                <StandardListItem type= "Navigation" title="{odataModel>OrderID}" 
+                                  info="{odataModel>CustomerID}" 
+                                  description="{odataModel>ShipName}"
+                                  press="onListSelection"></StandardListItem>
+            </items>
+        </List>
+    </Page>
+</mvc:View>
